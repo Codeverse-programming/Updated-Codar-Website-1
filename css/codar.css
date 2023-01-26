@@ -1156,6 +1156,22 @@ nav ul li{
     top: 9.5%;
   }
 }
+@media only screen and (max-width:1024px)and (max-height:768px){
+  .home{
+    height: 90vh;
+  }
+  .head .contain{
+    position: fixed;
+    top: 8%;
+  }
+  .events{
+    height: 115vh;
+  }
+  .contain nav .links{
+    position: fixed;
+    top: 16%;
+  }
+  }
 @media only screen and (max-width:1024px)and (max-height:600px){
   .home{
     height: 130vh;
@@ -1172,7 +1188,6 @@ nav ul li{
     top: 21.5%;
   }
 }
-
 @media only screen and (max-width:991px){
   .carousel-item .slide-text h1{
   font-size: 4rem;
